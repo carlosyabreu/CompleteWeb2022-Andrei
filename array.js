@@ -5,4 +5,9 @@ const newArray = array.forEach((num) => {
     double.push(num * 2);
 });
 
-console.log(newArray);
+console.log(double);
+
+const mapArray = array.map((num) => {
+    return num * 3;
+})
+console.log(mapArray);
